@@ -1,0 +1,416 @@
+Been in mesh w level 8
+Been in mesh w level 8
+Been in mesh w level 7
+Been in mesh w level 7
+Been in mesh w level 6
+Been in mesh w level 6
+Been in mesh w level 5
+Been in mesh w level 5
+Been in mesh w level 4
+Been in mesh w level 4
+Been in mesh w level 3
+Been in mesh w level 3
+Been in mesh w level 2
+Been in mesh w level 2
+Been in mesh w level 1
+Been in mesh w level 1
+Been in mesh w level 8
+Been in mesh w level 8
+Been in mesh w level 7
+Been in mesh w level 7
+Been in mesh w level 6
+Been in mesh w level 6
+Been in mesh w level 5
+Been in mesh w level 5
+Been in mesh w level 4
+Been in mesh w level 4
+Been in mesh w level 3
+Been in mesh w level 3
+Been in mesh w level 2
+Been in mesh w level 2
+Been in mesh w level 1
+Been in mesh w level 1
+2.4005018102808986e-08
+************************************************************************************************************************
+***             WIDEN YOUR WINDOW TO 120 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document            ***
+************************************************************************************************************************
+
+---------------------------------------------- PETSc Performance Summary: ----------------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+/home/clara/PycharmProjects/untitled/test.py on a arch-linux2-c-debug named clara with 1 processor, by clara Thu May 21 12:30:16 2020
+Using Petsc Development GIT revision: v3.4.2-29593-g905158c6f9  GIT Date: 2020-04-24 15:50:17 +0100
+
+                         Max       Max/Min     Avg       Total 
+Time (sec):           6.470e+01     1.000   6.470e+01
+Objects:              2.821e+03     1.000   2.821e+03
+Flop:                 3.317e+08     1.000   3.317e+08  3.317e+08
+Flop/sec:             5.127e+06     1.000   5.127e+06  5.127e+06
+Memory:               9.278e+07     1.000   9.278e+07  9.278e+07
+MPI Messages:         0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Message Lengths:  0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Reductions:       0.000e+00     0.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flop
+                            and VecAXPY() for complex vectors of length N --> 8N flop
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total 
+ 0:      Main Stage: 1.5624e+01  24.1%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0% 
+ 1:          warmup: 2.5289e+01  39.1%  1.6586e+08  50.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0% 
+ 2:       benchmark: 2.3790e+01  36.8%  1.6586e+08  50.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0% 
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+   GPU Mflop/s: 10e-6 * (sum of flop on GPU over all processors)/(max GPU time over all processors)
+   CpuToGpu Count: total number of CPU to GPU copies per processor
+   CpuToGpu Size (Mbytes): 10e-6 * (total size of CPU to GPU copies per processor)
+   GpuToCpu Count: total number of GPU to CPU copies per processor
+   GpuToCpu Size (Mbytes): 10e-6 * (total size of GPU to CPU copies per processor)
+   GPU %F: percent flops on GPU in this event
+------------------------------------------------------------------------------------------------------------------------
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total   GPU    - CpuToGpu -   - GpuToCpu - GPU
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s Mflop/s Count   Size   Count   Size  %F
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+PetscBarrier          16 1.0 4.7441e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  7  0  0  0  0  30  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SFSetGraph             2 1.0 1.9430e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecSet                42 1.0 3.5414e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecCUDACopyTo          2 1.0 2.8534e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      2 3.16e+00    0 0.00e+00  0
+VecCUDACopyFrom        4 1.0 5.5078e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    4 6.32e+00  0
+DMPlexCrFrCeLi         2 1.0 3.0274e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMPlexCrFrCeLiCo       2 1.0 9.8152e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMPlexInterp           2 1.0 1.1238e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMPlexStratify        20 1.0 3.6090e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   2  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMPlexSymmetrize      20 1.0 2.6728e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+CreateMesh            72 1.0 2.7262e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  4  0  0  0  0  17  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+Mesh: reorder         18 1.0 3.3138e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   2  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+Mesh: numbering       18 1.0 1.3894e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  2  0  0  0  0   9  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+CreateFunctionSpace      20 1.0 2.3221e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  4  0  0  0  0  15  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoopExecute         3 1.0 9.8202e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_wrap_expression_kernel       2 1.0 3.1840e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+AssembleExpression       1 1.0 1.3195e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    1 2.11e+00  0
+ParLoop_wrap_expression       2 1.0 2.2719e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_wrap_form_cell_integral_otherwise       2 1.0 1.4895e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoopRednBegin       1 1.0 2.9186e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoopRednEnd         1 1.0 1.9186e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+
+--- Event Stage 1: warmup
+
+VecMDot               84 1.0 7.7063e-03 1.0 3.87e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0 12  0  0  0   0 23  0  0  0  5018   29583      0 0.00e+00    0 0.00e+00 100
+VecNorm              102 1.0 8.2721e-03 1.0 8.26e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  5  0  0  0   999    1018      0 0.00e+00    0 0.00e+00 100
+VecScale              93 1.0 1.3230e-03 1.0 3.87e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  1  0  0  0   0  2  0  0  0  2923    3266      0 0.00e+00    0 0.00e+00 100
+VecCopy             1018 1.0 2.6862e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecSet               498 1.0 7.0103e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecAXPY               54 1.0 2.9973e-03 1.0 2.17e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  1  0  0  0   0  1  0  0  0   724     757      0 0.00e+00    0 0.00e+00 100
+VecAYPX              224 1.0 3.9481e-03 1.0 6.34e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  4  0  0  0  1607    1830      0 0.00e+00    0 0.00e+00 100
+VecAXPBYCZ            72 1.0 2.4186e-03 1.0 9.40e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  3  0  0  0   0  6  0  0  0  3887    4573      0 0.00e+00    0 0.00e+00 100
+VecMAXPY             101 1.0 8.8459e-03 1.0 9.14e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0 28  0  0  0   0 55  0  0  0 10333   11349      0 0.00e+00    0 0.00e+00 100
+VecPointwiseMult     245 1.0 5.9418e-03 1.0 5.75e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  3  0  0  0   967    1241     17 5.63e+00    0 0.00e+00 100
+VecNormalize         101 1.0 9.6403e-03 1.0 1.16e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0  3  0  0  0   0  7  0  0  0  1203    1264      0 0.00e+00    0 0.00e+00 100
+VecCUDACopyTo        113 1.0 3.8388e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0    113 3.38e+01    0 0.00e+00  0
+VecCUDACopyFrom      402 1.0 1.3754e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00  402 1.27e+02  0
+MatMult              244 1.0 1.0383e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  2  0  0  0  0   4  0  0  0  0     0       0      0 0.00e+00    9 2.81e+00  0
+MatMultAdd            36 1.0 1.8035e-02 1.0 9.40e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  1  0  0  0    52     314      0 0.00e+00    0 0.00e+00 100
+MatMultTranspose      60 1.0 2.2028e+01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00 34  0  0  0  0  87  0  0  0  0     0       0      9 4.92e+00   18 1.19e+01  0
+MatResidual           36 1.0 1.4276e-02 1.0 9.40e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  1  0  0  0    66     393      0 0.00e+00    0 0.00e+00 100
+MatAssemblyBegin      18 1.0 2.7558e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatAssemblyEnd        18 1.0 3.1486e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+PCSetUp                1 1.0 6.0253e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  9  0  0  0  0  24  0  0  0  0     0       0     81 1.37e+01  227 5.14e+01  0
+PCApply                1 1.0 1.8550e+01 1.0 1.65e+08 1.0 0.0e+00 0.0e+00 0.0e+00 29 50  0  0  0  73 99  0  0  0     9    2858     26 8.44e+00  165 5.63e+01 100
+KSPSetUp              18 1.0 1.8199e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00   71 2.67e+01  0
+KSPSolve               1 1.0 2.4576e+01 1.0 1.65e+08 1.0 0.0e+00 0.0e+00 0.0e+00 38 50  0  0  0  97100  0  0  0     7    2678    107 2.22e+01  392 1.08e+02 100
+KSPGMRESOrthog        84 1.0 1.6712e-02 1.0 1.16e+08 1.0 0.0e+00 0.0e+00 0.0e+00  0 35  0  0  0   0 70  0  0  0  6942   14424      0 0.00e+00    0 0.00e+00 100
+SNESSolve              1 1.0 2.4752e+01 1.0 1.66e+08 1.0 0.0e+00 0.0e+00 0.0e+00 38 50  0  0  0  98100  0  0  0     7    2679    107 2.22e+01  392 1.08e+02 100
+SNESSetUp              1 1.0 1.5306e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SNESFunctionEval       1 1.0 1.7609e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SNESJacobianEval       9 1.0 7.5358e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMCoarsen              8 1.0 9.6554e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   4  0  0  0  0     0       0     40 3.89e+00   64 6.37e+00  0
+DMCreateInterp         8 1.0 1.1890e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMCreateInject         8 1.0 1.0875e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMCreateMat            8 1.0 7.2074e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0     16 1.41e+00   16 1.41e+00  0
+CreateFunctionSpace      33 1.0 2.6345e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoopExecute      1565 1.0 1.5763e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  2  0  0  0  0   6  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_Cells_wrap_expression_kernel      10 1.0 1.7275e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ApplyBC                9 1.0 1.7449e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_18_wrap_expression       2 1.0 1.1276e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_18_wrap_zero      52 1.0 1.1157e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_Cells_wrap_form0_cell_integral_otherwise     246 1.0 3.1469e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_21_wrap_zero      73 1.0 1.1928e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_21_wrap_loopy_kernel_inject       3 1.0 1.1634e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_24_wrap_zero      89 1.0 2.5686e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_24_wrap_loopy_kernel_inject       3 1.0 5.9735e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_27_wrap_zero     105 1.0 2.8018e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_27_wrap_loopy_kernel_inject       3 1.0 6.0713e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_30_wrap_zero     121 1.0 3.0072e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_30_wrap_loopy_kernel_inject       3 1.0 6.0116e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_33_wrap_zero     137 1.0 3.3072e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_33_wrap_loopy_kernel_inject       3 1.0 6.2065e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_36_wrap_zero     153 1.0 3.4661e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_36_wrap_loopy_kernel_inject       3 1.0 5.7206e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_39_wrap_zero     154 1.0 3.5920e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_39_wrap_loopy_kernel_inject       3 1.0 6.1466e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_42_wrap_zero      51 1.0 2.0644e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_42_wrap_loopy_kernel_inject       3 1.0 6.1960e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_18_wrap_loopy_kernel_restrict       3 1.0 7.3305e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_21_wrap_expression       2 1.0 5.7964e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_21_wrap_loopy_kernel_restrict       4 1.0 5.7716e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_24_wrap_expression       2 1.0 1.1272e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_24_wrap_loopy_kernel_restrict       5 1.0 8.1629e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_27_wrap_expression       2 1.0 1.1040e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_27_wrap_loopy_kernel_restrict       6 1.0 8.6976e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_30_wrap_expression       2 1.0 1.1271e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_30_wrap_loopy_kernel_restrict       7 1.0 9.2865e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_33_wrap_expression       2 1.0 1.1365e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_33_wrap_loopy_kernel_restrict       8 1.0 9.8925e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_36_wrap_expression       2 1.0 1.1089e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_36_wrap_loopy_kernel_restrict       9 1.0 1.0165e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_39_wrap_expression       2 1.0 1.0875e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_39_wrap_loopy_kernel_restrict      10 1.0 1.1431e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_42_wrap_expression       2 1.0 5.6789e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_42_wrap_copy       9 1.0 5.5890e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_39_wrap_loopy_kernel_prolong       9 1.0 5.7774e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_39_wrap_copy      38 1.0 1.1835e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_36_wrap_loopy_kernel_prolong       8 1.0 7.1984e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_36_wrap_copy      39 1.0 1.2369e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_33_wrap_loopy_kernel_prolong       7 1.0 7.0900e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_33_wrap_copy      35 1.0 1.1583e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_30_wrap_loopy_kernel_prolong       6 1.0 7.0254e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_30_wrap_copy      31 1.0 1.0826e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_27_wrap_loopy_kernel_prolong       5 1.0 6.6309e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_27_wrap_copy      27 1.0 9.8846e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_24_wrap_loopy_kernel_prolong       4 1.0 6.6016e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_24_wrap_copy      23 1.0 9.5050e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_21_wrap_loopy_kernel_prolong       3 1.0 6.2833e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_21_wrap_copy      19 1.0 8.5689e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_18_wrap_loopy_kernel_prolong       2 1.0 5.6095e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_18_wrap_copy      15 1.0 5.9000e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+
+--- Event Stage 2: benchmark
+
+VecMDot               84 1.0 7.4968e-03 1.0 3.87e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0 12  0  0  0   0 23  0  0  0  5158   31295      0 0.00e+00    0 0.00e+00 100
+VecNorm              102 1.0 8.1889e-03 1.0 8.26e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  5  0  0  0  1009    1029      0 0.00e+00    0 0.00e+00 100
+VecScale              92 1.0 1.2920e-03 1.0 3.87e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  1  0  0  0   0  2  0  0  0  2993    3347      0 0.00e+00    0 0.00e+00 100
+VecCopy             1018 1.0 2.6857e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecSet               498 1.0 6.8551e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecAXPY               54 1.0 2.9963e-03 1.0 2.17e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  1  0  0  0   0  1  0  0  0   724     757      0 0.00e+00    0 0.00e+00 100
+VecAYPX              224 1.0 3.9999e-03 1.0 6.34e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  4  0  0  0  1586    1808      0 0.00e+00    0 0.00e+00 100
+VecAXPBYCZ            72 1.0 2.4463e-03 1.0 9.40e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  3  0  0  0   0  6  0  0  0  3843    4500      0 0.00e+00    0 0.00e+00 100
+VecMAXPY             101 1.0 8.7923e-03 1.0 9.14e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0 28  0  0  0   0 55  0  0  0 10396   11380      0 0.00e+00    0 0.00e+00 100
+VecPointwiseMult     245 1.0 5.8549e-03 1.0 5.75e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  3  0  0  0   982    1246     17 5.63e+00    0 0.00e+00 100
+VecNormalize         101 1.0 9.5215e-03 1.0 1.16e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0  3  0  0  0   0  7  0  0  0  1218    1279      0 0.00e+00    0 0.00e+00 100
+VecCUDACopyTo        113 1.0 3.8206e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0    113 3.38e+01    0 0.00e+00  0
+VecCUDACopyFrom      402 1.0 1.3709e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00  402 1.27e+02  0
+MatMult              244 1.0 6.4496e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   3  0  0  0  0     0       0      0 0.00e+00    9 2.81e+00  0
+MatMultAdd            36 1.0 1.8060e-02 1.0 9.40e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  1  0  0  0    52     314      0 0.00e+00    0 0.00e+00 100
+MatMultTranspose      60 1.0 2.1987e+01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00 34  0  0  0  0  92  0  0  0  0     0       0      9 4.92e+00   18 1.19e+01  0
+MatResidual           36 1.0 1.4062e-02 1.0 9.40e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  1  0  0  0    67     394      0 0.00e+00    0 0.00e+00 100
+MatAssemblyBegin      18 1.0 2.8807e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatAssemblyEnd        18 1.0 2.6372e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+PCSetUp                1 1.0 5.4057e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  8  0  0  0  0  23  0  0  0  0     0       0     81 1.37e+01  227 5.14e+01  0
+PCApply                1 1.0 1.8121e+01 1.0 1.65e+08 1.0 0.0e+00 0.0e+00 0.0e+00 28 50  0  0  0  76 99  0  0  0     9    2862     26 8.44e+00  165 5.63e+01 100
+KSPSetUp              18 1.0 1.6954e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00   71 2.67e+01  0
+KSPSolve               1 1.0 2.3527e+01 1.0 1.65e+08 1.0 0.0e+00 0.0e+00 0.0e+00 36 50  0  0  0  99100  0  0  0     7    2687    107 2.22e+01  392 1.08e+02 100
+KSPGMRESOrthog        84 1.0 1.6411e-02 1.0 1.16e+08 1.0 0.0e+00 0.0e+00 0.0e+00  0 35  0  0  0   0 70  0  0  0  7069   14530      0 0.00e+00    0 0.00e+00 100
+SNESSolve              1 1.0 2.3534e+01 1.0 1.66e+08 1.0 0.0e+00 0.0e+00 0.0e+00 36 50  0  0  0  99100  0  0  0     7    2688    107 2.22e+01  392 1.08e+02 100
+SNESSetUp              1 1.0 9.1100e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SNESFunctionEval       1 1.0 6.3491e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SNESJacobianEval       9 1.0 6.2936e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMCoarsen              8 1.0 6.4311e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   3  0  0  0  0     0       0     40 3.89e+00   64 6.37e+00  0
+DMCreateInterp         8 1.0 1.1440e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMCreateInject         8 1.0 1.0844e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMCreateMat            8 1.0 3.9747e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0     16 1.41e+00   16 1.41e+00  0
+CreateFunctionSpace      33 1.0 2.6773e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoopExecute      1565 1.0 7.0290e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_Cells_wrap_expression_kernel      10 1.0 2.8437e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ApplyBC                9 1.0 5.3967e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_Cells_wrap_form0_cell_integral_otherwise     246 1.0 3.7490e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_63_wrap_expression       2 1.0 5.9690e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_63_wrap_zero      52 1.0 8.5195e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_66_wrap_zero      73 1.0 1.2008e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_66_wrap_loopy_kernel_inject       3 1.0 7.9637e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_69_wrap_zero      89 1.0 1.4251e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_69_wrap_loopy_kernel_inject       3 1.0 7.2897e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_72_wrap_zero     105 1.0 1.6466e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_72_wrap_loopy_kernel_inject       3 1.0 6.8684e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_75_wrap_zero     121 1.0 1.8627e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_75_wrap_loopy_kernel_inject       3 1.0 6.7420e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_78_wrap_zero     137 1.0 2.1142e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_78_wrap_loopy_kernel_inject       3 1.0 7.0977e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_81_wrap_zero     153 1.0 2.3602e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_81_wrap_loopy_kernel_inject       3 1.0 6.8018e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_84_wrap_zero     154 1.0 2.4593e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_84_wrap_loopy_kernel_inject       3 1.0 6.9975e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_87_wrap_zero      51 1.0 9.0804e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_87_wrap_loopy_kernel_inject       3 1.0 6.7721e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_63_wrap_loopy_kernel_restrict       3 1.0 1.3929e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_66_wrap_expression       2 1.0 5.1162e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_66_wrap_loopy_kernel_restrict       4 1.0 1.9784e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_69_wrap_expression       2 1.0 4.8352e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_69_wrap_loopy_kernel_restrict       5 1.0 2.3673e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_72_wrap_expression       2 1.0 4.8098e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_72_wrap_loopy_kernel_restrict       6 1.0 2.8458e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_75_wrap_expression       2 1.0 5.0473e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_75_wrap_loopy_kernel_restrict       7 1.0 3.3802e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_78_wrap_expression       2 1.0 4.9799e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_78_wrap_loopy_kernel_restrict       8 1.0 3.8531e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_81_wrap_expression       2 1.0 5.2814e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_81_wrap_loopy_kernel_restrict       9 1.0 4.1701e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_84_wrap_expression       2 1.0 5.5869e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_84_wrap_loopy_kernel_restrict      10 1.0 4.7014e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_87_wrap_expression       2 1.0 4.9795e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_87_wrap_copy       9 1.0 1.7793e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_84_wrap_loopy_kernel_prolong       9 1.0 1.9500e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_84_wrap_copy      38 1.0 6.7757e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_81_wrap_loopy_kernel_prolong       8 1.0 1.6122e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_81_wrap_copy      39 1.0 6.7964e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_78_wrap_loopy_kernel_prolong       7 1.0 1.4221e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_78_wrap_copy      35 1.0 6.2024e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_75_wrap_loopy_kernel_prolong       6 1.0 1.2076e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_75_wrap_copy      31 1.0 5.4113e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_72_wrap_loopy_kernel_prolong       5 1.0 1.0255e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_72_wrap_copy      27 1.0 4.8020e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_69_wrap_loopy_kernel_prolong       4 1.0 8.1454e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_69_wrap_copy      23 1.0 4.0540e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_66_wrap_loopy_kernel_prolong       3 1.0 6.2523e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_66_wrap_copy      19 1.0 3.6092e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_63_wrap_loopy_kernel_prolong       2 1.0 4.3917e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_set_63_wrap_copy      15 1.0 2.8508e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+           Container    20              2         1168     0.
+              Viewer     1              0            0     0.
+           Index Set   772            412      4588672     0.
+             Section   208             60        44160     0.
+   Star Forest Graph   156             64        63488     0.
+              Vector    40             35      7095688     0.
+              Matrix    20             11        31416     0.
+    Distributed Mesh    94             20        31888     0.
+            DM Label   258             10         6400     0.
+    GraphPartitioner    20              2         1376     0.
+     Discrete System    98             24        22464     0.
+
+--- Event Stage 1: warmup
+
+           Index Set    35             18        16272     0.
+             Section     8              0            0     0.
+   Star Forest Graph    34             17        16864     0.
+              Vector   376            236     79129696     0.
+              Matrix    25             16        45696     0.
+      Preconditioner    10             10        10448     0.
+       Krylov Solver    18             18       276056     0.
+     DMKSP interface    17              8         5312     0.
+                SNES     1              1         1412     0.
+              DMSNES     9              0            0     0.
+    Distributed Mesh    17              0            0     0.
+     Discrete System    17              0            0     0.
+
+--- Event Stage 2: benchmark
+
+           Container     0              9         5256     0.
+           Index Set    35            215      3392380     0.
+             Section     8             82        60352     0.
+   Star Forest Graph    34             80        81952     0.
+              Vector   376            395    128646728     0.
+              Matrix    25             34        97104     0.
+      Preconditioner    10             10        10448     0.
+       Krylov Solver    18             18       276056     0.
+     DMKSP interface    17             17        11288     0.
+                SNES     1              1         1412     0.
+              DMSNES     9              9         6120     0.
+    Distributed Mesh    17             54       276048     0.
+            DM Label     0            124        79360     0.
+    GraphPartitioner     0              9         6192     0.
+     Discrete System    17             54        50544     0.
+========================================================================================================================
+Average time to get PetscTime(): 2.84e-08
+#PETSc Option Table entries:
+-log_view
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --download-eigen=/home/clara/thesis/packages/eigen-3.3.3.tgz --with-fortran-bindings=0 --download-chaco --download-metis --download-parmetis --download-scalapack --download-hypre --download-mumps --download-netcdf --with-hdf5=1 --download-hdf5=https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.6/src/hdf5-1.10.6.tar.bz2 --download-fblaslapack --with-cuda=1 --with-cuda-dir=/usr/local/cuda-10.2 --download-zlib --with-cudac=nvcc --mpicc=/opt/openmpi-4.0.3/bin/mpicc --mpicxx=/opt/openmpi-4.0.3/bin/mpicxx --mpif90=/opt/openmpi-4.0.3/bin/mpif90 --mpiexec=/opt/openmpi-4.0.3/bin/mpiexec --with-mpi-dir=/opt/openmpi-4.0.3/
+-----------------------------------------
+Libraries compiled on 2020-04-29 22:25:09 on clara 
+Machine characteristics: Linux-5.3.0-46-generic-x86_64-with-Ubuntu-18.04-bionic
+Using PETSc directory: /home/clara/thesis/freshGPU/packages/petsc_cuda
+Using PETSc arch: arch-linux2-c-debug
+-----------------------------------------
+
+Using C compiler: /opt/openmpi-4.0.3/bin/mpicc  -fPIC -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fstack-protector -fvisibility=hidden -g3  
+Using Fortran compiler: /opt/openmpi-4.0.3/bin/mpif90  -fPIC -Wall -ffree-line-length-0 -Wno-unused-dummy-argument -g    
+-----------------------------------------
+
+Using include paths: -I/home/clara/thesis/freshGPU/packages/petsc_cuda/include -I/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/include -I/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/include/eigen3 -I/usr/local/cuda-10.2/include -I/opt/openmpi-4.0.3/include
+-----------------------------------------
+
+Using C linker: /opt/openmpi-4.0.3/bin/mpicc
+Using Fortran linker: /opt/openmpi-4.0.3/bin/mpif90
+Using libraries: -Wl,-rpath,/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/lib -L/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/lib -lpetsc -Wl,-rpath,/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/lib -L/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/lib -Wl,-rpath,/usr/local/cuda-10.2/lib64 -L/usr/local/cuda-10.2/lib64 -Wl,-rpath,/opt/openmpi-4.0.3/lib -L/opt/openmpi-4.0.3/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7 -Wl,-rpath,/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -Wl,-rpath,/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -lHYPRE -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lscalapack -lflapack -lfblas -lX11 -lnetcdf -lhdf5hl_fortran -lhdf5_fortran -lhdf5_hl -lhdf5 -lchaco -lparmetis -lmetis -lm -lz -lcufft -lcublas -lcudart -lcusparse -lcusolver -lcuda -lstdc++ -ldl -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lpthread -lquadmath -lstdc++ -ldl
+-----------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+

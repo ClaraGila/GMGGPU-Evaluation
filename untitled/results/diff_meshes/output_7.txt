@@ -1,0 +1,202 @@
+************************************************************************************************************************
+***             WIDEN YOUR WINDOW TO 120 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document            ***
+************************************************************************************************************************
+
+---------------------------------------------- PETSc Performance Summary: ----------------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+/home/clara/PycharmProjects/untitled/diff_meshes.py on a arch-linux2-c-debug named clara with 1 processor, by clara Mon May 18 11:26:07 2020
+Using Petsc Development GIT revision: v3.4.2-29593-g905158c6f9  GIT Date: 2020-04-24 15:50:17 +0100
+
+                         Max       Max/Min     Avg       Total 
+Time (sec):           2.803e+02     1.000   2.803e+02
+Objects:              9.760e+02     1.000   9.760e+02
+Flop:                 0.000e+00     0.000   0.000e+00  0.000e+00
+Flop/sec:             0.000e+00     0.000   0.000e+00  0.000e+00
+Memory:               8.192e+08     1.000   8.192e+08  8.192e+08
+MPI Messages:         0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Message Lengths:  0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Reductions:       0.000e+00     0.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flop
+                            and VecAXPY() for complex vectors of length N --> 8N flop
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total 
+ 0:      Main Stage: 2.4491e+02  87.4%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0% 
+ 1:          warmup: 3.5398e+01  12.6%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0% 
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+   GPU Mflop/s: 10e-6 * (sum of flop on GPU over all processors)/(max GPU time over all processors)
+   CpuToGpu Count: total number of CPU to GPU copies per processor
+   CpuToGpu Size (Mbytes): 10e-6 * (total size of CPU to GPU copies per processor)
+   GpuToCpu Count: total number of GPU to CPU copies per processor
+   GpuToCpu Size (Mbytes): 10e-6 * (total size of GPU to CPU copies per processor)
+   GPU %F: percent flops on GPU in this event
+------------------------------------------------------------------------------------------------------------------------
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total   GPU    - CpuToGpu -   - GpuToCpu - GPU
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s Mflop/s Count   Size   Count   Size  %F
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+PetscBarrier           7 1.0 2.8686e+01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00 10  0  0  0  0  12  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SFSetGraph             1 1.0 1.0710e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecSet                17 1.0 2.1581e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMPlexCrFrCeLi         1 1.0 2.4152e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMPlexCrFrCeLiCo       1 1.0 5.6443e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMPlexInterp           1 1.0 1.6247e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMPlexStratify         9 1.0 1.8889e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMPlexSymmetrize       9 1.0 2.1478e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+CreateMesh            32 1.0 2.1275e+01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  8  0  0  0  0   9  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+Mesh: reorder          8 1.0 2.4308e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+Mesh: numbering        8 1.0 1.1000e+01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  4  0  0  0  0   4  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+CreateFunctionSpace       9 1.0 1.3005e+01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  5  0  0  0  0   5  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+
+--- Event Stage 1: warmup
+
+VecCopy                7 1.0 5.3790e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecSet                79 1.0 3.1566e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecCUDACopyTo         45 1.0 4.4897e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0     45 5.69e+02    0 0.00e+00  0
+VecCUDACopyFrom       77 1.0 8.3250e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00   77 1.08e+03  0
+MatMultTranspose       2 1.0 2.3821e+01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  8  0  0  0  0  67  0  0  0  0     0       0      2 1.18e+02    4 2.75e+02  0
+MatAssemblyBegin       2 1.0 7.8680e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatAssemblyEnd         2 1.0 7.8350e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+KSPSetUp               1 1.0 1.1140e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SNESSetUp              1 1.0 2.2776e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SNESFunctionEval       1 1.0 2.2765e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SNESJacobianEval       1 1.0 1.0966e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMCoarsen              7 1.0 7.7928e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  3  0  0  0  0  22  0  0  0  0     0       0     35 9.64e+01   56 1.58e+02  0
+DMCreateInterp         7 1.0 9.8714e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMCreateInject         7 1.0 9.8261e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+CreateFunctionSpace      29 1.0 3.5106e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoopExecute        47 1.0 1.0471e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   3  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_wrap_expression_kernel       9 1.0 2.2346e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ApplyBC                2 1.0 3.3181e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_wrap_expression       2 1.0 1.4887e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_wrap_zero      19 1.0 2.9739e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_wrap_form0_cell_integral_otherwise       1 1.0 7.3121e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_wrap_loopy_kernel_inject      15 1.0 2.2526e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+ParLoop_wrap_loopy_kernel_restrict       1 1.0 7.4490e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+           Container     9              1          584     0.
+              Viewer     1              0            0     0.
+           Index Set   343            184     35178156     0.
+             Section    93             27        19872     0.
+   Star Forest Graph    70             29        28768     0.
+              Vector    17             24    170653312     0.
+              Matrix     9             16        45696     0.
+      Preconditioner     0              9         9168     0.
+       Krylov Solver     0              9        13456     0.
+                SNES     0              1         1412     0.
+    Distributed Mesh    42              9        15264     0.
+            DM Label   115              5         3200     0.
+    GraphPartitioner     9              1          688     0.
+     Discrete System    44             11        10296     0.
+
+--- Event Stage 1: warmup
+
+           Index Set    31             16        14464     0.
+             Section     7              0            0     0.
+   Star Forest Graph    30             15        14880     0.
+              Vector    69              2     52472944     0.
+              Matrix    15              0            0     0.
+      Preconditioner     9              0            0     0.
+       Krylov Solver     9              0            0     0.
+     DMKSP interface    15              7         4648     0.
+                SNES     1              0            0     0.
+              DMSNES     8              0            0     0.
+    Distributed Mesh    15              0            0     0.
+     Discrete System    15              0            0     0.
+========================================================================================================================
+Average time to get PetscTime(): 2.54e-08
+#PETSc Option Table entries:
+-log_view
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --download-eigen=/home/clara/thesis/packages/eigen-3.3.3.tgz --with-fortran-bindings=0 --download-chaco --download-metis --download-parmetis --download-scalapack --download-hypre --download-mumps --download-netcdf --with-hdf5=1 --download-hdf5=https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.6/src/hdf5-1.10.6.tar.bz2 --download-fblaslapack --with-cuda=1 --with-cuda-dir=/usr/local/cuda-10.2 --download-zlib --with-cudac=nvcc --mpicc=/opt/openmpi-4.0.3/bin/mpicc --mpicxx=/opt/openmpi-4.0.3/bin/mpicxx --mpif90=/opt/openmpi-4.0.3/bin/mpif90 --mpiexec=/opt/openmpi-4.0.3/bin/mpiexec --with-mpi-dir=/opt/openmpi-4.0.3/
+-----------------------------------------
+Libraries compiled on 2020-04-29 22:25:09 on clara 
+Machine characteristics: Linux-5.3.0-46-generic-x86_64-with-Ubuntu-18.04-bionic
+Using PETSc directory: /home/clara/thesis/freshGPU/packages/petsc_cuda
+Using PETSc arch: arch-linux2-c-debug
+-----------------------------------------
+
+Using C compiler: /opt/openmpi-4.0.3/bin/mpicc  -fPIC -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fstack-protector -fvisibility=hidden -g3  
+Using Fortran compiler: /opt/openmpi-4.0.3/bin/mpif90  -fPIC -Wall -ffree-line-length-0 -Wno-unused-dummy-argument -g    
+-----------------------------------------
+
+Using include paths: -I/home/clara/thesis/freshGPU/packages/petsc_cuda/include -I/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/include -I/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/include/eigen3 -I/usr/local/cuda-10.2/include -I/opt/openmpi-4.0.3/include
+-----------------------------------------
+
+Using C linker: /opt/openmpi-4.0.3/bin/mpicc
+Using Fortran linker: /opt/openmpi-4.0.3/bin/mpif90
+Using libraries: -Wl,-rpath,/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/lib -L/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/lib -lpetsc -Wl,-rpath,/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/lib -L/home/clara/thesis/freshGPU/packages/petsc_cuda/arch-linux2-c-debug/lib -Wl,-rpath,/usr/local/cuda-10.2/lib64 -L/usr/local/cuda-10.2/lib64 -Wl,-rpath,/opt/openmpi-4.0.3/lib -L/opt/openmpi-4.0.3/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7 -Wl,-rpath,/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -Wl,-rpath,/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -lHYPRE -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lscalapack -lflapack -lfblas -lX11 -lnetcdf -lhdf5hl_fortran -lhdf5_fortran -lhdf5_hl -lhdf5 -lchaco -lparmetis -lmetis -lm -lz -lcufft -lcublas -lcudart -lcusparse -lcusolver -lcuda -lstdc++ -ldl -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lpthread -lquadmath -lstdc++ -ldl
+-----------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+

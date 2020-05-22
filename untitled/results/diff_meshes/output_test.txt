@@ -1,0 +1,32 @@
+Trying level: 1 with mesh: (10,10)
+kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.9640e-05 Time_ratio: 1.0 Global time: 0
+kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.5004e-04 Time_ratio: 1.0 Global time: 0
+kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.0636e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 8.711676184999996-----percentage kernels: 0.0028733391219361547---------with mult:5.287662629071884-------
+Trying level: 2 with mesh: (10,10)
+kernel_inject Count_max: 6 Count_ratio: 1.0 Time_max: 1.2673e-04 Time_ratio: 1.0 Global time: 0
+kernel_restrict Count_max: 7 Count_ratio: 1.0 Time_max: 3.0819e-04 Time_ratio: 1.0 Global time: 0
+kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 9.7893e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 15.805916305000004-----percentage kernels: 0.0033709719178473146---------with mult:3.1854035114732935-------
+Trying level: 3 with mesh: (10,10)
+kernel_inject Count_max: 9 Count_ratio: 1.0 Time_max: 1.9943e-04 Time_ratio: 1.0 Global time: 0
+kernel_restrict Count_max: 12 Count_ratio: 1.0 Time_max: 5.7529e-04 Time_ratio: 1.0 Global time: 0
+kernel_prolong Count_max: 9 Count_ratio: 1.0 Time_max: 1.8826e-04 Time_ratio: 1.0 Global time: 0
+------------Total time: 28.77877116099999-----percentage kernels: 0.003346147042251052---------with mult:3.089870915701397-------
+Trying level: 4 with mesh: (10,10)
+kernel_inject Count_max: 12 Count_ratio: 1.0 Time_max: 2.9058e-04 Time_ratio: 1.0 Global time: 0
+kernel_restrict Count_max: 18 Count_ratio: 1.0 Time_max: 8.6288e-04 Time_ratio: 1.0 Global time: 0
+kernel_prolong Count_max: 14 Count_ratio: 1.0 Time_max: 2.7004e-04 Time_ratio: 1.0 Global time: 0
+------------Total time: 39.202139388-----percentage kernels: 0.0036311793749596775---------with mult:1.7422597609789408-------
+Trying level: 5 with mesh: (10,10)
+kernel_inject Count_max: 15 Count_ratio: 1.0 Time_max: 3.9555e-04 Time_ratio: 1.0 Global time: 0
+kernel_restrict Count_max: 25 Count_ratio: 1.0 Time_max: 1.2356e-03 Time_ratio: 1.0 Global time: 0
+kernel_prolong Count_max: 20 Count_ratio: 1.0 Time_max: 4.1611e-04 Time_ratio: 1.0 Global time: 0
+------------Total time: 63.345963723-----percentage kernels: 0.0032318712664192524---------with mult:1.2265205458037736-------
+Trying level: 6 with mesh: (10,10)
+kernel_inject Count_max: 18 Count_ratio: 1.0 Time_max: 4.0963e-04 Time_ratio: 1.0 Global time: 0
+kernel_restrict Count_max: 33 Count_ratio: 1.0 Time_max: 1.5885e-03 Time_ratio: 1.0 Global time: 0
+kernel_prolong Count_max: 27 Count_ratio: 1.0 Time_max: 5.2364e-04 Time_ratio: 1.0 Global time: 0
+------------Total time: 101.22120422099998-----percentage kernels: 0.002491345582585766---------with mult:0.9470068819840505-------
+Trying level: 7 with mesh: (10,10)
+Trying level: 8 with mesh: (10,10)

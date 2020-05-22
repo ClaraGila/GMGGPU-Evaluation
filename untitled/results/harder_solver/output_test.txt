@@ -1,0 +1,354 @@
+Trying level: 1 with mesh: (32,32)
+ParLoop_set_17_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.6582e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_14_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.4835e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_14_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.0246e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 7.962752930000001-----total kernels: 0.000255178---------smooth:0.0016088-------percentange: 15.861387369467925---
+Trying level: 2 with mesh: (16,16)
+ParLoop_set_24_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.1399e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_27_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.9285e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_21_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.3445e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_24_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.7020e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_24_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.6741e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_21_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 3.5397e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 13.954483915000003-----total kernels: 0.0005174719999999999---------smooth:0.0018246-------percentange: 28.36084621286857---
+Trying level: 3 with mesh: (8,8)
+ParLoop_set_31_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.2927e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.0242e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_37_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.8809e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_28_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.3604e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_31_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.7988e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.2919e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 8.0812e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_31_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.4375e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_28_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 3.7753e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 21.531354082999997-----total kernels: 0.0009000279999999999---------smooth:0.0018669-------percentange: 48.209759494348916---
+Trying level: 4 with mesh: (4,4)
+ParLoop_set_38_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.3078e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.0881e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.9111e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_47_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.8394e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_35_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.7219e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_38_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.9858e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.2796e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 2.6960e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 1.0684e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 7.1354e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_38_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.5353e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_35_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 3.9268e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 32.396075301999986-----total kernels: 0.001382609---------smooth:0.0019223-------percentange: 71.924725589138---
+Trying level: 5 with mesh: (2,2)
+ParLoop_set_45_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.2863e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_48_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.3113e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_51_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.6531e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_54_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.6875e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_57_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.7004e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_42_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.4620e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_45_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 2.4391e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_48_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.6863e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_51_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 3.1045e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_54_wrap_loopy_kernel_restrict Count_max: 7 Count_ratio: 1.0 Time_max: 4.2508e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_54_wrap_loopy_kernel_prolong Count_max: 6 Count_ratio: 1.0 Time_max: 1.2407e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_51_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 9.7248e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_48_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 7.7640e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_45_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.9200e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_42_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.0422e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 44.438022714000006-----total kernels: 0.0021592359999999997---------smooth:0.0020986-------percentange: 102.88935480796721---
+Trying level: 6 with mesh: (1,1)
+ParLoop_set_52_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.6228e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_55_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.2799e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_58_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.3028e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_61_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.2156e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_64_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.1638e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_67_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.1991e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_49_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.3475e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_52_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.8078e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_55_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.2578e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_58_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 2.7198e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_61_wrap_loopy_kernel_restrict Count_max: 7 Count_ratio: 1.0 Time_max: 3.1040e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_64_wrap_loopy_kernel_restrict Count_max: 8 Count_ratio: 1.0 Time_max: 3.7485e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_64_wrap_loopy_kernel_prolong Count_max: 7 Count_ratio: 1.0 Time_max: 1.5243e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_61_wrap_loopy_kernel_prolong Count_max: 6 Count_ratio: 1.0 Time_max: 1.1006e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_58_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 9.1209e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_55_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 7.2165e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_52_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.4643e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_49_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.1062e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 55.775998427999994-----total kernels: 0.002397949---------smooth:0.0022798-------percentange: 105.18242828318274---
+Finished case: 1
+Trying level: 1 with mesh: (64,64)
+ParLoop_set_17_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.9324e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_14_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.3880e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_14_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.0378e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 9.998473189999999-----total kernels: 0.000268502---------smooth:0.0029524-------percentange: 9.094363907329631---
+Trying level: 2 with mesh: (32,32)
+ParLoop_set_24_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.0272e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_27_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.3978e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_21_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.4680e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_24_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.9616e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_24_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 6.4029e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_21_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.1550e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 16.243990707000002-----total kernels: 0.000582789---------smooth:0.0028131-------percentange: 20.716967047029968---
+Trying level: 3 with mesh: (16,16)
+ParLoop_set_31_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.4644e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.1525e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_37_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.6825e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_28_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.5067e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_31_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 2.1433e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.5448e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 9.4050e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_31_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 6.7434e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_28_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 3.9568e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 26.833097090999992-----total kernels: 0.001033526---------smooth:0.0034794-------percentange: 29.70414439271139---
+Trying level: 4 with mesh: (8,8)
+ParLoop_set_38_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.5304e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.0631e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.4574e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_47_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.6083e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_35_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.4846e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_38_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.9586e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.4876e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 3.0204e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 1.0490e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 7.6424e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_38_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.7030e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_35_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.0058e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 35.745875137000006-----total kernels: 0.001460124---------smooth:0.0026516-------percentange: 55.06577160959421---
+Trying level: 5 with mesh: (4,4)
+ParLoop_set_45_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.1390e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_48_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.9412e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_51_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.8534e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_54_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.6779e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_57_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.6874e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_42_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.2419e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_45_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.6883e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_48_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.1433e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_51_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 2.6246e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_54_wrap_loopy_kernel_restrict Count_max: 7 Count_ratio: 1.0 Time_max: 3.1903e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_54_wrap_loopy_kernel_prolong Count_max: 6 Count_ratio: 1.0 Time_max: 1.2373e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_51_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 9.1303e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_48_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 7.6744e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_45_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.3742e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_42_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 3.8100e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 42.110095646999966-----total kernels: 0.0017954479999999998---------smooth:0.0025141-------percentange: 71.41513861819338---
+Trying level: 6 with mesh: (2,2)
+ParLoop_set_52_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.5627e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_55_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.0527e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_58_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.8879e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_61_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.8018e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_64_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.8136e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_67_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.6858e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_49_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.3608e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_52_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.7389e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_55_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.1528e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_58_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 2.5093e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_61_wrap_loopy_kernel_restrict Count_max: 7 Count_ratio: 1.0 Time_max: 2.9561e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_64_wrap_loopy_kernel_restrict Count_max: 8 Count_ratio: 1.0 Time_max: 3.4964e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_64_wrap_loopy_kernel_prolong Count_max: 7 Count_ratio: 1.0 Time_max: 1.2553e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_61_wrap_loopy_kernel_prolong Count_max: 6 Count_ratio: 1.0 Time_max: 1.0650e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_58_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 8.7931e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_55_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 8.8513e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_52_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.4897e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_49_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.0308e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 52.888677718-----total kernels: 0.002283154---------smooth:0.0022825-------percentange: 100.02865279299016---
+Trying level: 7 with mesh: (1,1)
+ParLoop_set_59_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.1752e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_62_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.2191e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_65_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.8682e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_68_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.4440e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_71_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.9403e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_74_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.8949e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_77_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.5814e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_56_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.5655e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_59_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 2.4924e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_62_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.4260e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_65_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 2.7257e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_68_wrap_loopy_kernel_restrict Count_max: 7 Count_ratio: 1.0 Time_max: 3.3708e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_71_wrap_loopy_kernel_restrict Count_max: 8 Count_ratio: 1.0 Time_max: 3.7855e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_74_wrap_loopy_kernel_restrict Count_max: 9 Count_ratio: 1.0 Time_max: 4.5609e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_74_wrap_loopy_kernel_prolong Count_max: 8 Count_ratio: 1.0 Time_max: 1.5993e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_71_wrap_loopy_kernel_prolong Count_max: 7 Count_ratio: 1.0 Time_max: 1.3925e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_68_wrap_loopy_kernel_prolong Count_max: 6 Count_ratio: 1.0 Time_max: 1.1000e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_65_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 9.6789e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_62_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 7.3226e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_59_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.5848e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_56_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 3.9383e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 73.15502526899998-----total kernels: 0.0032683369999999996---------smooth:0.0028799-------percentange: 113.48786416195007---
+Finished case: 2
+Trying level: 1 with mesh: (128,128)
+ParLoop_set_17_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.0323e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_14_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.3045e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_14_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.1112e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 14.770056788000002-----total kernels: 0.000251885---------smooth:0.0059754-------percentange: 4.215366335308096---
+Trying level: 2 with mesh: (64,64)
+ParLoop_set_24_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.5821e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_27_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.5856e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_21_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.4669e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_24_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.9250e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_24_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 6.5516e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_21_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.0751e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 21.998517829-----total kernels: 0.0005871339999999999---------smooth:0.0046118-------percentange: 12.731124506700201---
+Trying level: 3 with mesh: (32,32)
+ParLoop_set_31_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.8482e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.1224e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_37_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.5410e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_28_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.4699e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_31_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.9857e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.6345e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 8.6019e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_31_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 6.2019e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_28_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.0100e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 31.338985837000006-----total kernels: 0.001032264---------smooth:0.0044291-------percentange: 23.30640536452101---
+Trying level: 4 with mesh: (16,16)
+ParLoop_set_38_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.6713e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.3901e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.7879e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_47_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.6849e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_35_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.5940e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_38_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 2.0939e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.6574e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 3.1055e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 1.0890e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 8.4038e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_38_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 6.2131e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_35_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.4633e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 43.25387387499999-----total kernels: 0.0015401240000000001---------smooth:0.0046309-------percentange: 33.257552527586434---
+Trying level: 5 with mesh: (8,8)
+ParLoop_set_45_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.0689e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_48_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.0689e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_51_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.5893e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_54_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.4617e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_57_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.3926e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_42_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.6266e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_45_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.9504e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_48_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.4289e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_51_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 2.9165e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_54_wrap_loopy_kernel_restrict Count_max: 7 Count_ratio: 1.0 Time_max: 3.5997e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_54_wrap_loopy_kernel_prolong Count_max: 6 Count_ratio: 1.0 Time_max: 1.2891e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_51_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 1.0458e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_48_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 8.0390e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_45_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 6.1714e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_42_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.0961e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 51.301020912999995-----total kernels: 0.002014579---------smooth:0.0035919-------percentange: 56.08672290431248---
+Trying level: 6 with mesh: (4,4)
+ParLoop_set_52_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.7960e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_55_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.5304e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_58_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.2503e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_61_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.1498e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_64_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.1833e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_67_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.1146e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_49_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.3231e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_52_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.7561e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_55_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.3127e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_58_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 2.6823e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_61_wrap_loopy_kernel_restrict Count_max: 7 Count_ratio: 1.0 Time_max: 3.0318e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_64_wrap_loopy_kernel_restrict Count_max: 8 Count_ratio: 1.0 Time_max: 3.4839e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_64_wrap_loopy_kernel_prolong Count_max: 7 Count_ratio: 1.0 Time_max: 1.3499e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_61_wrap_loopy_kernel_prolong Count_max: 6 Count_ratio: 1.0 Time_max: 1.0492e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_58_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 8.8274e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_55_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 6.9694e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_52_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.3213e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_49_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 3.8729e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 60.53544264399999-----total kernels: 0.002339054---------smooth:0.0030839-------percentange: 75.84727131229936---
+Trying level: 7 with mesh: (2,2)
+ParLoop_set_59_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.6171e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_62_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.0978e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_65_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.7806e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_68_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.6635e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_71_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.6231e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_74_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.5266e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_77_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 5.5676e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_56_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.2865e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_59_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.7075e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_62_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.2139e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_65_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 3.0102e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_68_wrap_loopy_kernel_restrict Count_max: 7 Count_ratio: 1.0 Time_max: 3.1556e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_71_wrap_loopy_kernel_restrict Count_max: 8 Count_ratio: 1.0 Time_max: 3.5346e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_74_wrap_loopy_kernel_restrict Count_max: 9 Count_ratio: 1.0 Time_max: 3.9981e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_74_wrap_loopy_kernel_prolong Count_max: 8 Count_ratio: 1.0 Time_max: 1.4747e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_71_wrap_loopy_kernel_prolong Count_max: 7 Count_ratio: 1.0 Time_max: 1.2419e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_68_wrap_loopy_kernel_prolong Count_max: 6 Count_ratio: 1.0 Time_max: 1.0552e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_65_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 8.4003e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_62_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 6.8881e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_59_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.6073e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_56_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 3.6871e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 72.29944532100006-----total kernels: 0.0029324109999999994---------smooth:0.0030552-------percentange: 95.98098324168627---
+Trying level: 8 with mesh: (1,1)
+ParLoop_set_66_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.2350e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_69_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.6712e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_72_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.5239e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_75_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.2254e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_78_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.4002e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_81_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.4617e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_84_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.6780e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_87_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.3193e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_63_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.2970e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_66_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.7060e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_69_wrap_loopy_kernel_restrict Count_max: 5 Count_ratio: 1.0 Time_max: 2.3253e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_72_wrap_loopy_kernel_restrict Count_max: 6 Count_ratio: 1.0 Time_max: 2.7816e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_75_wrap_loopy_kernel_restrict Count_max: 7 Count_ratio: 1.0 Time_max: 3.1363e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_78_wrap_loopy_kernel_restrict Count_max: 8 Count_ratio: 1.0 Time_max: 3.6068e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_81_wrap_loopy_kernel_restrict Count_max: 9 Count_ratio: 1.0 Time_max: 3.9357e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_84_wrap_loopy_kernel_restrict Count_max: 10 Count_ratio: 1.0 Time_max: 4.3648e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_84_wrap_loopy_kernel_prolong Count_max: 9 Count_ratio: 1.0 Time_max: 1.6435e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_81_wrap_loopy_kernel_prolong Count_max: 8 Count_ratio: 1.0 Time_max: 1.4237e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_78_wrap_loopy_kernel_prolong Count_max: 7 Count_ratio: 1.0 Time_max: 1.2395e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_75_wrap_loopy_kernel_prolong Count_max: 6 Count_ratio: 1.0 Time_max: 1.0112e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_72_wrap_loopy_kernel_prolong Count_max: 5 Count_ratio: 1.0 Time_max: 9.7898e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_69_wrap_loopy_kernel_prolong Count_max: 4 Count_ratio: 1.0 Time_max: 1.1079e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_66_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 5.3809e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_63_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 3.7471e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 88.697206893-----total kernels: 0.003682255---------smooth:0.0033405-------percentange: 110.23065409369855---
+Finished case: 3
+Trying level: 1 with mesh: (256,256)
+ParLoop_set_17_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.5268e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_14_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.3228e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_14_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.1403e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 44.059239719999994-----total kernels: 0.000248951---------smooth:0.018243-------percentange: 1.3646384914761829---
+Trying level: 2 with mesh: (128,128)
+ParLoop_set_24_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.3170e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_27_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.9562e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_21_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.3509e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_24_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.8404e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_24_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 7.2542e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_21_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 3.9133e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 42.66696148600002-----total kernels: 0.000593537---------smooth:0.0090954-------percentange: 6.525683312443653---
+Trying level: 3 with mesh: (64,64)
+ParLoop_set_31_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.9366e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.1104e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_37_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.5020e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_28_wrap_loopy_kernel_restrict Count_max: 2 Count_ratio: 1.0 Time_max: 9.7213e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_31_wrap_loopy_kernel_restrict Count_max: 3 Count_ratio: 1.0 Time_max: 1.4751e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_restrict Count_max: 4 Count_ratio: 1.0 Time_max: 1.9710e-04 Time_ratio: 1.0 Global time: 0
+ParLoop_set_34_wrap_loopy_kernel_prolong Count_max: 3 Count_ratio: 1.0 Time_max: 6.6692e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_31_wrap_loopy_kernel_prolong Count_max: 2 Count_ratio: 1.0 Time_max: 4.2414e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_28_wrap_loopy_kernel_prolong Count_max: 1 Count_ratio: 1.0 Time_max: 2.3122e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 20.27677995800001-----total kernels: 0.0008295409999999999---------smooth:0.0049079-------percentange: 16.90215774567534---
+Trying level: 4 with mesh: (32,32)
+ParLoop_set_38_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.5972e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 8.1316e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 6.7690e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_47_wrap_loopy_kernel_inject Count_max: 3 Count_ratio: 1.0 Time_max: 7.4263e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_35_wrap_loopy_kernel_restrict Count_max: 1 Count_ratio: 1.0 Time_max: 4.4672e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_38_wrap_loopy_kernel_restrict Count_max: 1 Count_ratio: 1.0 Time_max: 4.4823e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_41_wrap_loopy_kernel_restrict Count_max: 1 Count_ratio: 1.0 Time_max: 4.6560e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_44_wrap_loopy_kernel_restrict Count_max: 1 Count_ratio: 1.0 Time_max: 8.4388e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 8.564154752999997-----total kernels: 0.000529684---------smooth:2.586e-05-------percentange: 2048.2753286929624---
+Trying level: 5 with mesh: (16,16)
+ParLoop_set_45_wrap_loopy_kernel_inject Count_max: 2 Count_ratio: 1.0 Time_max: 6.5307e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_48_wrap_loopy_kernel_inject Count_max: 2 Count_ratio: 1.0 Time_max: 5.9376e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_51_wrap_loopy_kernel_inject Count_max: 2 Count_ratio: 1.0 Time_max: 4.4428e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_54_wrap_loopy_kernel_inject Count_max: 2 Count_ratio: 1.0 Time_max: 4.6180e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_57_wrap_loopy_kernel_inject Count_max: 2 Count_ratio: 1.0 Time_max: 4.4473e-05 Time_ratio: 1.0 Global time: 0
+ParLoop_set_42_wrap_loopy_kernel_restrict Count_max: 1 Count_ratio: 1.0 Time_max: 4.3205e-05 Time_ratio: 1.0 Global time: 0
+------------Total time: 1.678364228-----total kernels: 0.000302969---------smooth:2.7007e-05-------percentange: 1121.8165660754619---
+Trying level: 6 with mesh: (8,8)
+Trying level: 7 with mesh: (4,4)
+Trying level: 8 with mesh: (2,2)
+Trying level: 9 with mesh: (1,1)
+Finished case: 4
+Trying level: 1 with mesh: (512,512)
+Trying level: 2 with mesh: (256,256)
+Trying level: 3 with mesh: (128,128)
+Trying level: 4 with mesh: (64,64)
+Trying level: 5 with mesh: (32,32)
+Trying level: 6 with mesh: (16,16)
+Finished case: 5
