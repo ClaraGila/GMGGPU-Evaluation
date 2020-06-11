@@ -1,107 +1,73 @@
-Trying level: 1 with mesh: (32,32)
-                    7.42%  16.032ms      1654  9.6930us  8.5440us  71.712us  wrap_form0_cell_integral_otherwise
-                    0.29%  616.97us         6  102.83us  102.05us  103.68us  wrap_loopy_kernel_restrict time% 0.29% time(s) 616.97us
-                    0.20%  422.79us         4  105.70us  104.45us  106.47us  wrap_loopy_kernel_prolong time% 0.20% time(s) 422.79us
-                    0.12%  252.58us         6  42.096us  39.744us  44.000us  wrap_loopy_kernel_inject time% 0.12% time(s) 252.58us
-Kernels time: 1292.34 smoother time16032.0 percentage 8.061002994011975%
-
-
-Trying level: 2 with mesh: (16,16)
-                    4.56%  3.9327ms       776  5.0670us  2.7840us  73.920us  wrap_form0_cell_integral_otherwise
-                    0.97%  835.63us        14  59.687us  25.793us  104.61us  wrap_loopy_kernel_restrict time% 0.97% time(s) 835.63us
-                    0.67%  580.04us        10  58.003us  25.216us  106.95us  wrap_loopy_kernel_prolong time% 0.67% time(s) 580.04us
-                    0.42%  360.64us        12  30.053us  15.872us  45.504us  wrap_loopy_kernel_inject time% 0.42% time(s) 360.64us
-Kernels time: 1776.31 smoother time3932.7000000000003 percentage 45.167696493503186%
-
-
-Trying level: 3 with mesh: (8,8)
-                    5.43%  3.0064ms       488  6.1600us  3.3920us  72.064us  wrap_form0_cell_integral_otherwise
-                    1.81%  999.89us        24  41.661us  12.864us  103.68us  wrap_loopy_kernel_restrict time% 1.81% time(s) 999.89us
-                    1.28%  706.92us        18  39.273us  11.840us  105.95us  wrap_loopy_kernel_prolong time% 1.28% time(s) 706.92us
-                    0.78%  432.07us        18  24.003us  11.360us  44.097us  wrap_loopy_kernel_inject time% 0.78% time(s) 432.07us
-Kernels time: 2138.88 smoother time3006.4 percentage 71.14422565194253%
-
-
-Trying level: 4 with mesh: (4,4)
-                    6.99%  2.3789ms       366  6.4990us  2.4960us  71.584us  wrap_form0_cell_integral_otherwise
-                    3.15%  1.0710ms        36  29.750us  9.3760us  102.75us  wrap_loopy_kernel_restrict time% 3.15% time(s) 1.0710ms
-                    2.16%  736.26us        28  26.295us  7.0720us  106.08us  wrap_loopy_kernel_prolong time% 2.16% time(s) 736.26us
-                    1.49%  505.32us        24  21.054us  11.328us  43.072us  wrap_loopy_kernel_inject time% 1.49% time(s) 505.32us
-Kernels time: 2312.58 smoother time2378.8999999999996 percentage 97.21215687922991%
-
-
-Trying level: 5 with mesh: (2,2)
-                    8.78%  2.2589ms       304  7.4300us  2.5600us  71.071us  wrap_form0_cell_integral_otherwise
-                    4.82%  1.2394ms        50  24.788us  7.4560us  102.81us  wrap_loopy_kernel_restrict time% 4.82% time(s) 1.2394ms
-                    3.29%  846.54us        40  21.163us  6.3040us  106.43us  wrap_loopy_kernel_prolong time% 3.29% time(s) 846.54us
-                    2.30%  591.54us        30  19.717us  11.328us  44.063us  wrap_loopy_kernel_inject time% 2.30% time(s) 591.54us
-Kernels time: 2677.48 smoother time2258.9 percentage 118.53025809022091%
-
-
 Trying level: 6 with mesh: (1,1)
-                    9.00%  2.1581ms       320  6.7440us  2.5280us  65.951us  wrap_form0_cell_integral_otherwise
-                    5.46%  1.3090ms        66  19.833us  6.4320us  103.29us  wrap_loopy_kernel_restrict time% 5.46% time(s) 1.3090ms
-                    3.72%  892.56us        54  16.528us  6.2080us  104.99us  wrap_loopy_kernel_prolong time% 3.72% time(s) 892.56us
-                    2.28%  546.49us        36  15.180us  8.4800us  43.359us  wrap_loopy_kernel_inject time% 2.28% time(s) 546.49us
-Kernels time: 2748.05 smoother time2158.1 percentage 127.3365460358649%
+0.07209099999999999 0.079387 0.08345
+Prolong values: 0.008031 0.007711 0.007552 0.010304 0.025405999999999998 0.08345 
+ Restrict values: 0.079387 0.023327 0.00992 0.008095000000000001 0.007711 0.007968 
 
 
-Finished case: 1
-Trying level: 1 with mesh: (64,64)
-                   13.79%  187.76ms      6371  29.471us  23.423us  267.32us  wrap_form0_cell_integral_otherwise
-                    0.16%  2.2449ms         6  374.16us  372.92us  375.74us  wrap_loopy_kernel_restrict time% 0.16% time(s) 2.2449ms
-                    0.11%  1.5469ms         4  386.73us  386.30us  387.10us  wrap_loopy_kernel_prolong time% 0.11% time(s) 1.5469ms
-                    0.05%  735.95us         6  122.66us  119.10us  125.89us  wrap_loopy_kernel_inject time% 0.05% time(s) 735.95us
-Kernels time: 4527.75 smoother time187760.0 percentage 2.4114561141883253%
 
 
-Trying level: 2 with mesh: (32,32)
-                    7.93%  21.498ms      2082  10.325us  6.5600us  203.10us  wrap_form0_cell_integral_otherwise
-                    0.86%  2.3417ms        14  167.27us  75.135us  288.32us  wrap_loopy_kernel_restrict time% 0.86% time(s) 2.3417ms
-                    0.66%  1.7972ms        10  179.72us  80.319us  385.72us  wrap_loopy_kernel_prolong time% 0.66% time(s) 1.7972ms
-                    0.29%  799.48us        12  66.622us  29.984us  103.04us  wrap_loopy_kernel_inject time% 0.29% time(s) 799.48us
-Kernels time: 4938.379999999999 smoother time21498.0 percentage 22.971346171736904%
+Trying level: 4 with mesh: (7,7)
+0.16776 0.21982 0.23061
+Prolong values: 0.009311 0.019870000000000002 0.066715 0.23061 
+ Restrict values: 0.21982 0.064668 0.018335 0.008959 
 
 
-Trying level: 3 with mesh: (16,16)
-                    6.66%  8.6620ms      1052  8.2330us  2.6240us  266.91us  wrap_form0_cell_integral_otherwise
-                    2.21%  2.8808ms        24  120.03us  23.360us  375.00us  wrap_loopy_kernel_restrict time% 2.21% time(s) 2.8808ms
-                    1.77%  2.3030ms        18  127.94us  24.576us  387.16us  wrap_loopy_kernel_prolong time% 1.77% time(s) 2.3030ms
-                    0.73%  952.24us        18  52.902us  13.280us  125.21us  wrap_loopy_kernel_inject time% 0.73% time(s) 952.24us
-Kernels time: 6136.039999999999 smoother time8662.0 percentage 70.83860540290925%
-
-
-Trying level: 4 with mesh: (8,8)
-                    8.20%  6.9150ms       652  10.605us  2.5280us  266.91us  wrap_form0_cell_integral_otherwise
-                    3.96%  3.3443ms        36  92.898us  11.648us  376.99us  wrap_loopy_kernel_restrict time% 3.96% time(s) 3.3443ms
-                    2.82%  2.3790ms        28  84.964us  9.1840us  389.08us  wrap_loopy_kernel_prolong time% 2.82% time(s) 2.3790ms
-                    1.29%  1.0910ms        24  45.458us  8.4790us  128.13us  wrap_loopy_kernel_inject time% 1.29% time(s) 1.0910ms
-Kernels time: 6814.3 smoother time6915.0 percentage 98.54374548083877%
-
-
-Trying level: 5 with mesh: (4,4)
-                   11.02%  7.0206ms       468  15.001us  3.3920us  267.52us  wrap_form0_cell_integral_otherwise
-                    5.85%  3.7248ms        50  74.496us  9.7600us  376.16us  wrap_loopy_kernel_restrict time% 5.85% time(s) 3.7248ms
-                    4.18%  2.6626ms        40  66.563us  8.8640us  388.51us  wrap_loopy_kernel_prolong time% 4.18% time(s) 2.6626ms
-                    1.97%  1.2582ms        30  41.938us  11.360us  126.85us  wrap_loopy_kernel_inject time% 1.97% time(s) 1.2582ms
-Kernels time: 7645.599999999999 smoother time7020.6 percentage 108.90237301655128%
-
-
-Trying level: 6 with mesh: (2,2)
-                   12.81%  6.5391ms       386  16.940us  2.5600us  269.25us  wrap_form0_cell_integral_otherwise
-                    7.42%  3.7875ms        66  57.386us  9.7920us  375.58us  wrap_loopy_kernel_restrict time% 7.42% time(s) 3.7875ms
-                    5.17%  2.6377ms        54  48.846us  6.3040us  387.26us  wrap_loopy_kernel_prolong time% 5.17% time(s) 2.6377ms
-                    2.41%  1.2310ms        36  34.193us  10.368us  127.77us  wrap_loopy_kernel_inject time% 2.41% time(s) 1.2310ms
-Kernels time: 7656.200000000001 smoother time6539.1 percentage 117.08339068067473%
 
 
 Trying level: 7 with mesh: (1,1)
-                   12.81%  6.1948ms       402  15.409us  2.5600us  267.61us  wrap_form0_cell_integral_otherwise
-                    7.74%  3.7433ms        84  44.563us  7.5520us  376.12us  wrap_loopy_kernel_restrict time% 7.74% time(s) 3.7433ms
-                    5.40%  2.6129ms        70  37.327us  6.2400us  387.68us  wrap_loopy_kernel_prolong time% 5.40% time(s) 2.6129ms
-                    2.86%  1.3847ms        42  32.967us  9.3440us  133.76us  wrap_loopy_kernel_inject time% 2.86% time(s) 1.3847ms
-Kernels time: 7740.9 smoother time6194.8 percentage 124.95802931490927%
+0.26725 0.37885 0.39044
+Prolong values: 0.008 0.00848 0.008096 0.011071999999999999 0.029854 0.10796 0.39044 
+ Restrict values: 0.37885 0.10217 0.030494 0.011647000000000001 0.008864 0.008736 0.008064 
 
 
-Finished case: 2
-Trying level: 1 with mesh: (128,128)
+
+
+Trying level: 8 with mesh: (1,1)
+1.0463 1.4788 1.5198
+Prolong values: 0.008064 0.008511 0.008095000000000001 0.011134999999999999 0.031582 0.10918000000000001 0.39277 1.5198 
+ Restrict values: 1.4788 0.38173 0.10371 0.030238 0.012064 0.008766999999999999 0.008863 0.008128 
+
+
+
+
+Trying level: 5 with mesh: (9,9)
+1.3253 1.8654 1.9189
+Prolong values: 0.012575 0.038462 0.13282 0.49254000000000003 1.9189 
+ Restrict values: 1.8654 0.47754 0.1278 0.036476999999999996 0.013471 
+
+
+
+
+Trying level: 6 with mesh: (5,5)
+1.6311 2.3 2.3674
+Prolong values: 0.011424 0.015647 0.045725999999999996 0.16031 0.60441 2.3674 
+ Restrict values: 2.3 0.58665 0.15414 0.042494 0.014622999999999999 0.009023 
+
+
+
+
+Trying level: 6 with mesh: (7,7)
+3.1914 4.4884 4.6112
+Prolong values: 0.009536 0.023486999999999997 0.085275 0.30357 1.1696 4.6112 
+ Restrict values: 4.4884 1.1359 0.29362 0.082459 0.024255 0.009984 
+
+
+
+
+Trying level: 9 with mesh: (1,1)
+4.6509 5.8573 4.5108
+Prolong values: 0.009631 0.00784 0.007712 0.010367000000000001 0.024959 0.082428 0.29688 1.1424 4.5108 
+ Restrict values: 5.8573 1.4783 0.37982 0.10211 0.030078 0.011551 0.008799 0.008702999999999999 0.008159000000000001 
+
+
+
+
+Trying level: 10 with mesh: (1,1)
+14.087 23.827 23.971
+Prolong values: 0.008735 0.008704 0.008512 0.011904 0.031742 0.10790000000000001 0.39355 1.5245 6.0314 23.971 
+ Restrict values: 23.827 5.8535 1.4787 0.37999 0.10336 0.029759 0.012768 0.010335 0.010144 0.009023999999999999 
+
+
+
+
+Finished case: 1

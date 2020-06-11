@@ -1,0 +1,184 @@
+Trying level: 1 with mesh: (32,32)
+Longest smooth 5.27583s  73.216us            (256 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [5407]
+Longest restrict 7.00704s  102.91us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [7818]
+Longest prolong 7.46109s  108.58us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [7865]
+
+
+Trying level: 2 with mesh: (16,16)
+Longest smooth 3.15009s  57.633us            (256 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [6791]
+Longest restrict 4.98448s  77.792us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [11050]
+Longest prolong 5.63662s  81.217us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [11287]
+
+
+Trying level: 3 with mesh: (8,8)
+Longest smooth 3.18378s  74.176us            (256 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [8175]
+Longest restrict 5.14876s  77.377us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [14266]
+Longest prolong 5.84843s  111.27us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [14669]
+
+
+Trying level: 4 with mesh: (4,4)
+Longest smooth 4.70570s  72.384us            (256 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [9559]
+Longest restrict 6.63395s  102.66us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [17482]
+Longest prolong 7.33068s  106.08us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [18051]
+
+
+Trying level: 5 with mesh: (2,2)
+Longest smooth 3.04122s  70.880us            (256 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [10943]
+Longest restrict 5.01334s  101.57us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [20698]
+Longest prolong 6.13558s  106.85us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [21433]
+
+
+Trying level: 6 with mesh: (1,1)
+Longest smooth 3.13491s  73.760us            (256 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [12327]
+Longest restrict 5.23344s  102.24us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [23914]
+Longest prolong 6.02484s  106.72us            (521 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [24815]
+
+
+Finished case: 1
+Trying level: 1 with mesh: (64,64)
+Longest smooth 5.59768s  266.69us           (1024 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [5407]
+Longest restrict 7.38651s  379.97us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [7818]
+Longest prolong 7.80450s  392.16us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [7865]
+
+
+Trying level: 2 with mesh: (32,32)
+Longest smooth 4.06812s  267.14us           (1024 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [6791]
+Longest restrict 6.15017s  379.11us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [11050]
+Longest prolong 6.84129s  390.98us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [11287]
+
+
+Trying level: 3 with mesh: (16,16)
+Longest smooth 7.00380s  267.27us           (1024 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [8175]
+Longest restrict 9.19734s  379.17us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [14266]
+Longest prolong 9.89646s  392.03us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [14669]
+
+
+Trying level: 4 with mesh: (8,8)
+Longest smooth 4.18105s  267.01us           (1024 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [9559]
+Longest restrict 6.45412s  378.40us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [17482]
+Longest prolong 7.14821s  390.79us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [18051]
+
+
+Trying level: 5 with mesh: (4,4)
+Longest smooth 6.95761s  268.93us           (1024 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [10943]
+Longest restrict 9.31128s  379.71us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [20698]
+Longest prolong 10.0824s  392.61us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [21433]
+
+
+Trying level: 6 with mesh: (2,2)
+Longest smooth 4.11044s  267.07us           (1024 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [12327]
+Longest restrict 6.40256s  381.63us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [23914]
+Longest prolong 7.15239s  392.03us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [24815]
+
+
+Trying level: 7 with mesh: (1,1)
+Longest smooth 7.01182s  267.20us           (1024 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [13711]
+Longest restrict 9.33457s  381.03us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [27130]
+Longest prolong 10.0995s  392.61us           (2065 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [28197]
+
+
+Finished case: 2
+Trying level: 1 with mesh: (128,128)
+Longest smooth 8.68260s  1.0478ms           (4096 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [5407]
+Longest restrict 11.3630s  1.4779ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [7818]
+Longest prolong 11.7929s  1.5191ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [7865]
+
+
+Trying level: 2 with mesh: (64,64)
+Longest smooth 11.0751s  1.0473ms           (4096 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [6791]
+Longest restrict 14.4041s  1.4772ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [11050]
+Longest prolong 15.0878s  1.5192ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [11287]
+
+
+Trying level: 3 with mesh: (32,32)
+Longest smooth 9.62249s  1.0495ms           (4096 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [8175]
+Longest restrict 13.3240s  1.4786ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [14266]
+Longest prolong 14.0246s  1.5209ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [14669]
+
+
+Trying level: 4 with mesh: (16,16)
+Longest smooth 10.9764s  1.0496ms           (4096 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [9559]
+Longest restrict 14.5229s  1.4783ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [17482]
+Longest prolong 15.3005s  1.5213ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [18051]
+
+
+Trying level: 5 with mesh: (8,8)
+Longest smooth 9.67633s  783.49us           (4096 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [10943]
+Longest restrict 13.3457s  1.4757ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [20698]
+Longest prolong 14.1162s  1.5215ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [21433]
+
+
+Trying level: 6 with mesh: (4,4)
+Longest smooth 12.3238s  1.0509ms           (4096 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [12327]
+Longest restrict 16.0067s  1.1067ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [23914]
+Longest prolong 16.8273s  1.1409ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [24815]
+
+
+Trying level: 7 with mesh: (2,2)
+Longest smooth 12.2325s  784.61us           (4096 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [13711]
+Longest restrict 15.9173s  1.4772ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [27130]
+Longest prolong 16.7884s  1.1411ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [28197]
+
+
+Trying level: 8 with mesh: (1,1)
+Longest smooth 12.4105s  1.0486ms           (4096 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [15095]
+Longest restrict 15.9607s  1.4779ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [30346]
+Longest prolong 16.7668s  1.5211ms           (8225 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [31579]
+
+
+Finished case: 3
+Trying level: 1 with mesh: (256,256)
+Longest smooth 35.1740s  3.1176ms          (16384 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [5407]
+Longest restrict 41.4377s  5.8600ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [7818]
+Longest prolong 41.8869s  7.5663ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [7865]
+
+
+Trying level: 2 with mesh: (128,128)
+Longest smooth 38.8571s  3.1165ms          (16384 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [6791]
+Longest restrict 47.6057s  5.8578ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [11050]
+Longest prolong 48.2864s  6.0208ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [11287]
+
+
+Trying level: 3 with mesh: (64,64)
+Longest smooth 39.7657s  4.1613ms          (16384 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [8175]
+Longest restrict 47.9461s  5.8554ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [14266]
+Longest prolong 48.7257s  4.5110ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [14669]
+
+
+Trying level: 4 with mesh: (32,32)
+Longest smooth 40.5607s  4.1622ms          (16384 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [9559]
+Longest restrict 49.0143s  5.8565ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [17482]
+Longest prolong 49.7573s  6.0272ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [18051]
+
+
+Trying level: 5 with mesh: (16,16)
+Longest smooth 43.6373s  4.1614ms          (16384 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [10943]
+Longest restrict 51.6663s  6.0902ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [20698]
+Longest prolong 52.4262s  6.0178ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [21433]
+
+
+Trying level: 6 with mesh: (8,8)
+Longest smooth 42.8975s  4.1669ms          (16384 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [12327]
+Longest restrict 50.9787s  5.8557ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [23914]
+Longest prolong 51.7917s  4.5094ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [24815]
+
+
+Trying level: 7 with mesh: (4,4)
+Longest smooth 40.8178s  3.3977ms          (16384 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [13711]
+Longest restrict 49.9462s  5.8568ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [27130]
+Longest prolong 50.7451s  6.0255ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [28197]
+
+
+Trying level: 8 with mesh: (2,2)
+Longest smooth 39.3278s  4.1721ms          (16384 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [15095]
+Longest restrict 47.8147s  4.7216ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [30346]
+Longest prolong 48.7708s  4.8457ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [31579]
+
+
+Trying level: 9 with mesh: (1,1)
+Longest smooth 39.7333s  3.1176ms          (16384 1 1)        (32 1 1)        74        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_form0_cell_integral_otherwise [16479]
+Longest restrict 48.0464s  4.3844ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_restrict [33562]
+Longest prolong 48.9758s  4.5083ms          (32833 1 1)        (32 1 1)        52        0B        0B         -           -           -           -  GeForce GTX 165         2        15  wrap_loopy_kernel_prolong [34961]
+
+
+Finished case: 4

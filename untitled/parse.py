@@ -10,6 +10,7 @@ smooth = "wrap_form0_cell_integral_otherwise_TIME"
 file = "/home/clara/multigrid_logs.txt"
 prolong_entries = []
 restrict_entries = []
+smooth_entries = []
 test_start = "test_poisson.py::test_poisson_gmg_gpu["
 out = "out='"
 path_to_save = '/home/clara/multigrid_logs/'
@@ -115,6 +116,7 @@ def parse_f(file, filename):
                 inject_sum += float(sections[1])
             elif sections[0] == smooth:
                 smooth_sum += float(sections[1])
+                smooth_entries.append(float(sections[1]))
             else:
                 others_sum += float(sections[1])
         total_sum = prolong_sum + restrict_sum + inject_sum + others_sum
@@ -126,6 +128,7 @@ def parse_files():
     dir = '/home/clara/mg_results/'
     import os
     for filename in os.listdir(dir):
+            filename = 'more_smooth.txt'
             parse_f(os.path.join(dir, filename), filename)
 
 parse_files()

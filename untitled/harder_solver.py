@@ -2,17 +2,18 @@ from firedrake import *
 from pyop2.gpu.cuda import cuda_backend as cuda
 from pyop2.profiling import timed_stage
 import sys
-parameters = {"snes_type": "ksponly",
-            "ksp_type": "preonly",
-            "mat_type": "matfree",
-            "pc_type": "mg",
-            "pc_mg_type": "full",
-            "mg_coarse_ksp_type": "gmres",
-            "mg_coarse_pc_type": "jacobi",
-            "mg_levels_ksp_type": "chebyshev",
-            "mg_levels_ksp_max_it": 2,
-            "mg_levels_pc_type": "jacobi"}
 
+parameters = {"snes_type": "ksponly",
+              "ksp_type": "preonly",
+              "mat_type": "matfree",
+              "pc_type": "mg",
+              "pc_mg_type": "multiplicative",
+              "pc_mg_cycle_type": "v",
+              "mg_coarse_ksp_type": "preonly",
+              "mg_coarse_pc_type": "none",
+              "mg_levels_ksp_type": "richardson",
+              "mg_levels_ksp_max_it": 1,
+              "mg_levels_pc_type": "none"}
 
 def warmupSolve(level = 2, mesh_arg=(10, 10)):
     ##Setup
@@ -59,5 +60,5 @@ def measureSolve(level = 2, mesh_arg=(10, 10)):
 level = int(sys.argv[1])
 mesh_f = int(sys.argv[2])
 mesh_s = int(sys.argv[3])
-warmupSolve(level, (mesh_f, mesh_s))
+#warmupSolve(level, (mesh_f, mesh_s))
 measureSolve(level, (mesh_f, mesh_s))
