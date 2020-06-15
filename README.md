@@ -12,3 +12,16 @@ The following firedrake config was used for this tests: (zenodo archive on the w
 "loopy": "83cb903d4f2d4df6a9dbfcdbd37b63bb3cfa54e1", 
 "metarelease_info_file": null, 
 "title": "GPU accelerated geometric multigrid in the Firedrake compiler"}
+
+Zenodo
+@software{firedrake_zenodo_2020_3894682,
+  author       = {firedrake-zenodo},
+  title        = {{Software used in 'GPU accelerated geometric 
+                   multigrid in the Firedrake compiler'}},
+  month        = jun,
+  year         = 2020,
+  publisher    = {Zenodo},
+  version      = {Firedrake\_20200615.3},
+  doi          = {10.5281/zenodo.3894682},
+  url          = {https://doi.org/10.5281/zenodo.3894682}
+}
