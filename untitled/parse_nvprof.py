@@ -153,6 +153,106 @@ def parse_one(level, mesh_f, mesh_s, filename, out_filename):
             for idx, val in enumerate(prolong_values):
                 fi.write(str(val) + " " + str(mem[idx]) + "\n")
 
+def parse_line(line):
+    parts = line.split()
+    sum = float(parts[2])
+    if(parts[1] == 'Kbyte'):
+        sum /= 1000
+    if(parts[1] == 'Gbyte'):
+        sum *= 1000
+    return sum
+
+
+def parse_section(lines):
+    read_sum ='dram__bytes_read.sum'
+    write_sum = 'dram__bytes_write.sum'
+    throughput = 'dram__throughput.avg.pct_of_peak_sustained_elapsed'
+    sm_throughput = 'sm__pipe_fp64_cycles_active'
+    flops = 'smsp__sass_thread_inst_executed_ops_dadd_dmul'
+    flop_s = 'smsp__sass_thread_inst_executed_op_dfma_pred_on.sum'
+    flop_rest = 'smsp__sass_thread_inst_executed_op'
+    mbytes_sum = 0
+    throughput_num = 0.0
+    sm_num = 0.0
+    flop_sum = 0.0
+    flop_count = 0.0
+
+    for idx, line in enumerate(lines):
+        name = line.split()[0]
+        if read_sum == name or write_sum == name:
+            mbytes_sum += parse_line(line)
+            continue
+        if throughput in line:
+            throughput_num = float(line.split()[2])
+        if sm_throughput in line:
+            sm_num = float(line.split()[2])
+        if flops in line:
+            flop_sum = float(line.split()[2])
+        if flop_s in line:
+            flop_count = flop_count + 2 * float(line.split()[2].replace(',', ''))
+        elif flop_rest in line:
+            flop_count += float(line.split()[2].replace(',', ''))
+
+
+    return (mbytes_sum, throughput_num, sm_num, flop_sum, flop_count / 10**6)
+
+
+
+def parse_nvc(level, mesh_f, mesh_s, input_file, output_file):
+    start = '==PROF== Disconnected from process '
+    start_seen = False
+    inject_seen = 0
+    restrict_total_dram = []
+    restrict_throughput_dram = []
+    sm_throughput= []
+    flops = []
+    flop_num = []
+
+    with open(input_file) as f:
+        lines = [line.rstrip() for line in f]
+        it_list = iter(enumerate(lines))
+        for idx, line in it_list:
+            if start in line:
+                start_seen = True
+                continue
+            if start_seen is False:
+                continue
+            if inject in line and inject_seen < 3 * level:
+                inject_seen += 1
+                continue
+            elif inject_seen >= 3 * level:
+                if restrict in line:
+                    (mbytes_sum, throughput_num, sm_num, flop_sum, flop_count) = parse_section(lines[(idx+3):(idx+11)])
+                    restrict_total_dram.append(mbytes_sum)
+                    restrict_throughput_dram.append(throughput_num)
+                    sm_throughput.append(sm_num)
+                    flops.append(flop_sum)
+                    flop_num.append(flop_count)
+                    [next(it_list) for _ in range(10)]
+    restrict_total_dram.reverse()
+    restrict_throughput_dram.reverse()
+    sm_throughput.reverse()
+    flops.reverse()
+    flop_num.reverse()
+    with open(output_file, 'a') as fi:
+        for idx, val in enumerate(restrict_total_dram):
+            fi.write(str(val) + " ")
+        fi.write("\n")
+        for idx, val in enumerate(restrict_throughput_dram):
+            fi.write(str(val) + " ")
+        fi.write("\n")
+        for idx, val in enumerate(sm_throughput):
+            fi.write(str(val) + " ")
+        fi.write("\n")
+        for idx, val in enumerate(flops):
+            fi.write(str(val) + " ")
+        fi.write("\n")
+        for idx, val in enumerate(flop_num):
+            fi.write(str(val) + " ")
+        fi.write("\n")
+
+
+
 test_no = int(sys.argv[1])
 level = int(sys.argv[2])
 counter = int(sys.argv[3])
@@ -163,6 +263,6 @@ output_file = sys.argv[7]
 if test_no == 3:
     parse_all(level, mesh_f, mesh_s, input_file, output_file)
 elif test_no == 4:
-    parse_one(level, mesh_f, mesh_s, input_file, output_file)
+    parse_nvc(level, mesh_f, mesh_s, input_file, output_file)
 else:
     parse_f(test_no, level, counter, mesh_f, mesh_s, input_file, output_file)

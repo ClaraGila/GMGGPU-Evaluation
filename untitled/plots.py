@@ -62,25 +62,46 @@ def plot_graph_test3(output_dir, output_file_name):
         plt.savefig(output_dir + 'DoFTime.png')
         plt.clf()
 
+# def plot_graph_test4(output_dir, output_file_name):
+#     file = output_dir + output_file_name
+#     with open(file) as f:
+#         lines = [line.rstrip() for line in f]
+#         flops = lines[-1]
+#         lines = lines[:-1]
+#         bandwidth = []
+#         for line in lines:
+#             parts = line.split()
+#             bandwidth.append((float(parts[1]) / (10 ** 9)) / (float(parts[0]) / 1000))
+#
+#         flops_array = [(float(i) / 1000) for i in flops.split()]
+#         fig, ax = plt.subplots()
+#         ax.grid(linestyle=':')
+#         plt.plot(list(range(1, len(bandwidth) + 1)), bandwidth, marker='x', label="GB/s")
+#         plt.plot(list(range(1, len(flops_array) + 1)), flops_array, marker='o', label="GFlop/s")
+#         plt.legend()
+#         plt.ylabel('s')
+#         plt.xlabel('level')
+#         plt.grid(True)
+#         plt.savefig(output_dir + 'GB.png')
+#         plt.clf()
+#
 def plot_graph_test4(output_dir, output_file_name):
     file = output_dir + output_file_name
     with open(file) as f:
         lines = [line.rstrip() for line in f]
-        flops = lines[-1]
-        lines = lines[:-1]
-        bandwidth = []
-        for line in lines:
-            parts = line.split()
-            bandwidth.append((float(parts[1]) / (10 ** 9)) / (float(parts[0]) / 1000))
-
-        flops_array = [(float(i) / 1000) for i in flops.split()]
+        total_dram = [float(i) for i in lines[0].split()]
+        throughput = [float(i) for i in lines[1].split()]
+        sm_throughput = [float(i) for i in lines[2].split()]
+        flops = [float(i) for i in lines[3].split()]
+        flop_num = [float(i) for i in lines[4].split()]
         fig, ax = plt.subplots()
         ax.grid(linestyle=':')
-        plt.plot(list(range(1, len(bandwidth) + 1)), bandwidth, marker='x', label="GB/s")
-        plt.plot(list(range(1, len(flops_array) + 1)), flops_array, marker='o', label="GFlop/s")
+        # plt.plot(list(range(1, len(total_dram) + 1)), sm_throughput, marker='x', label="SM throughput(%)")
+        plt.plot(list(range(1, len(throughput) + 1)), throughput, marker='x', label="DRAM throughput(%)")
+        plt.plot(list(range(1, len(sm_throughput) + 1)), sm_throughput, marker='x', label="SM throughput(%)")
         plt.legend()
-        plt.ylabel('s')
         plt.xlabel('level')
+        plt.ylabel('% of theoretical peak')
         plt.grid(True)
-        plt.savefig(output_dir + 'GB.png')
+        plt.savefig(output_dir + 'bottleneck.png')
         plt.clf()
