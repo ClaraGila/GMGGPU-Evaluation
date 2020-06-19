@@ -23,5 +23,5 @@ Zenodo
   publisher    = {Zenodo},
   version      = {Firedrake\_20200615.3},
   doi          = {10.5281/zenodo.3894682},
-  url          = {https://doi.org/10.5281/zenodo.3894682}
+  url          = { https://doi.org/10.5281/zenodo.3894682 }
 }
