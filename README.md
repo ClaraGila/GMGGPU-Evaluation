@@ -1,3 +1,11 @@
+This project plots 4 types of graphs analysing the performance of transfer kernels of a matrix-free, geometric multigrid solver ran on GPUs in the Firedrake compiler (the Firedrake configuration used to test these is below).
+
+The four types of plots are:
+1. Time in s taken by smooth, restrict and prolong to be executed on the finest mesh with associated DoF
+2. Time in s taken per level for prolong and restrict,compared to expected exponential time increase
+3. Total times in s of GMG kernels ran for different problems of increasing DoF
+4. Nsight Compute output for double precision GFLOP throughput and DRAM throughput (utilisation compared to theoretical peak) per GMG level for prolong, restrict and inject 
+
 # Firedrake config 
 
 {"firedrake": "5df0fe8a4ef45325351f7837b2fd7b3eab08a92f", \
