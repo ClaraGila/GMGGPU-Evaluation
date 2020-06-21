@@ -28,19 +28,12 @@ def runNvpTest(output_dir, test_file):
     counter = 0
     output_file = output_dir + output_file_name
     open(output_file, 'w').close()
-    params_prob_1 = [[((32, 32), 1), ((16, 16), 2), ((8, 8), 3), ((4, 4), 4), ((2, 2), 5), ((1, 1), 6)],
-                     [((64, 64), 1), ((32, 32), 2), ((16, 16), 3), ((8, 8), 4), ((4, 4), 5), ((2, 2), 6), ((1, 1), 7)],
-                     [((128, 128), 1), ((64, 64), 2), ((32, 32), 3), ((16, 16), 4), ((8, 8), 5), ((4, 4), 6),
-                      ((2, 2), 7), ((1, 1), 8)],
-                     [((256, 256), 1), ((128, 128), 2), ((64, 64), 3), ((32, 32), 4), ((16, 16), 5), ((8, 8), 6),
-                      ((4, 4), 7), ((2, 2), 8), ((1, 1), 9)]]
     new_prob = [[((1, 1), 6), ((7, 7), 4), ((1, 1), 7), ((1, 1), 8), ((9, 9), 5), ((5, 5), 6), ((7, 7), 6), ((1, 1), 9),
                  ((1, 1), 10)]]
 
     count = 0
     for case in new_prob:
         for ((i, j), k) in case:
-            # for n in params_mesh[(i, j)]:
             counter += 1
             nvp_out = output_dir + "output_" + str(counter) + ".txt"
             with open(output_file, 'a') as fi:
@@ -88,17 +81,24 @@ def runTestThree(output_dir, test_file, output_file_name):
         plots.plot_graph_test3(output_dir, output_file_name)
 
 def runTestFour(output_dir, test_file, output_file_name):
-    counter = 0
     output_file = output_dir + output_file_name
     open(output_file, 'w').close()
-    # new_prob = [((1, 1), 10)]
     nvc_out = output_dir + "nvc_out.txt"
     runNvc(nvc_out, output_file, str(10), str(1), str(1), str(0))
     import plots
     plots.plot_graph_test4(output_dir, output_file_name)
 
 
-#runTestOne("/home/clara/GMGGPU-Evaluation/results/nvp_test/test1/", "test.py", "output_test.txt")
-#runNvpTest("/home/clara/GMGGPU-Evaluation/results/nvp_test/", "test.py")
-#runTestThree("/home/clara/GMGGPU-Evaluation/results/nvp_test/test3/", "full_solver.py", "output_test.txt")
+print("Running first simulation...")
+runTestOne("/home/clara/GMGGPU-Evaluation/results/nvp_test/test1/", "test.py", "output_test.txt")
+print("DONE! Results in GMGGPU-Evaluation/results/nvp_test/test1/" + "\n")
+print("Running second simulation...")
+runNvpTest("/home/clara/GMGGPU-Evaluation/results/nvp_test/", "test.py")
+print("DONE! Results in GMGGPU-Evaluation/results/nvp_test/" + "\n")
+print("Running third simulation...")
+runTestThree("/home/clara/GMGGPU-Evaluation/results/nvp_test/test3/", "full_solver.py", "output_test.txt")
+print("DONE! Results in GMGGPU-Evaluation/results/nvp_test/test3/" + "\n")
+print("Running fourth simulation...")
 runTestFour("/home/clara/GMGGPU-Evaluation/results/nvp_test/test4/", "test.py", "output_test.txt")
+print("DONE! Results in GMGGPU-Evaluation/results/nvp_test/test4/" + "\n")
+
