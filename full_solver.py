@@ -54,5 +54,4 @@ def measureSolve(level = 2, mesh_arg=(10, 10)):
 level = int(sys.argv[1])
 mesh_f = int(sys.argv[2])
 mesh_s = int(sys.argv[3])
-#warmupSolve(level, (mesh_f, mesh_s))
 measureSolve(level, (mesh_f, mesh_s))

@@ -1,11 +1,13 @@
 import subprocess
+import os
+dirname = os.path.dirname(__file__)
 
-test_dir = "/home/clara/GMGGPU-Evaluation/"
+test_dir = dirname + "/"
 output_file_name = "output_test.txt"
 
 def runNvp(test_no, test_file, nvp_out, out_file, level, mesh_f, mesh_s, counter):
     subprocess.call(['nvprof', '--print-gpu-trace', '--log-file', nvp_out, 'python3', test_file, level, mesh_f, mesh_s])
-    subprocess.call(['python3', '/home/clara/GMGGPU-Evaluation/parse_nvprof.py', str(test_no), level, counter, mesh_f,
+    subprocess.call(['python3', os.path.join(dirname, "parse_nvprof.py"), str(test_no), level, counter, mesh_f,
                      mesh_s, nvp_out, out_file])
 
 
@@ -19,9 +21,9 @@ def runNvc(output_file, out_file, level, mesh_f, mesh_s, counter):
 
     with open(output_file, 'w') as fi:
         subprocess.call(['nv-nsight-cu-cli', '--metrics'] + metrics + ['python3',
-                                                                       '/home/clara/GMGGPU-Evaluation/test_w_args.py'],
+                                                                       os.path.join(dirname, "test_w_args.py")],
                         stdout=fi)
-    subprocess.call(['python3', '/home/clara/GMGGPU-Evaluation/parse_nvprof.py', str(4), level, counter, mesh_f, mesh_s,
+    subprocess.call(['python3', os.path.join(dirname, "parse_nvprof.py"), str(4), level, counter, mesh_f, mesh_s,
                      output_file, out_file])
 
 def runNvpTest(output_dir, test_file):
@@ -90,15 +92,15 @@ def runTestFour(output_dir, test_file, output_file_name):
 
 
 print("Running first simulation...")
-runTestOne("/home/clara/GMGGPU-Evaluation/results/nvp_test/test1/", "test.py", "output_test.txt")
-print("DONE! Results in GMGGPU-Evaluation/results/nvp_test/test1/" + "\n")
+runTestOne(os.path.join(dirname, "results/nvp_test/test1/"), "test.py", "output_test.txt")
+print("DONE! Results in results/nvp_test/test1/" + "\n")
 print("Running second simulation...")
-runNvpTest("/home/clara/GMGGPU-Evaluation/results/nvp_test/", "test.py")
-print("DONE! Results in GMGGPU-Evaluation/results/nvp_test/" + "\n")
+runNvpTest(os.path.join(dirname, "results/nvp_test/"), "test.py")
+print("DONE! Results in plots/test/" + "\n")
 print("Running third simulation...")
-runTestThree("/home/clara/GMGGPU-Evaluation/results/nvp_test/test3/", "full_solver.py", "output_test.txt")
-print("DONE! Results in GMGGPU-Evaluation/results/nvp_test/test3/" + "\n")
+runTestThree(os.path.join(dirname, "results/nvp_test/test3/"), "full_solver.py", "output_test.txt")
+print("DONE! Results in results/nvp_test/test3/" + "\n")
 print("Running fourth simulation...")
-runTestFour("/home/clara/GMGGPU-Evaluation/results/nvp_test/test4/", "test.py", "output_test.txt")
-print("DONE! Results in GMGGPU-Evaluation/results/nvp_test/test4/" + "\n")
+runTestFour(os.path.join(dirname, "results/nvp_test/test4/"), "test.py", "output_test.txt")
+print("DONE! Results in results/nvp_test/test4/" + "\n")
 
