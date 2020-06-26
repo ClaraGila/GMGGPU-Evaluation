@@ -21,6 +21,11 @@ The four types of plots are:
 "metarelease_info_file": null, \
 "title": "GPU accelerated geometric multigrid in the Firedrake compiler"}
 
+# Prerequisites
+* Firedrake venv
+* nvprof running in the Firedrake venv
+* nv-nsight-cu-cli running in the Firedrake venv
+
 # Zenodo to reference
 @software{firedrake_zenodo_2020_3894682, \
   author       = {firedrake-zenodo}, \
@@ -35,6 +40,6 @@ The four types of plots are:
 }
 
 # Run simulations
-To run the simulations, source the firedrake venv and run:
+To run the simulations, activate the firedrake venv and run:
 ``` python3 {installation-path/}GMGGPU-Evaluation/run.py ```
 
