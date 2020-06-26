@@ -22,9 +22,9 @@ The four types of plots are:
 "title": "GPU accelerated geometric multigrid in the Firedrake compiler"}
 
 # Prerequisites
-* Firedrake venv
-* nvprof running in the Firedrake venv
-* nv-nsight-cu-cli running in the Firedrake venv
+* Firedrake venv - https://www.firedrakeproject.org/zenodo.html
+* nvprof running in the Firedrake venv - https://docs.nvidia.com/cuda/profiler-users-guide/index.html
+* nv-nsight-cu-cli running in the Firedrake venv - https://docs.nvidia.com/nsight-compute/NsightComputeCli/index.html
 
 # Zenodo to reference
 @software{firedrake_zenodo_2020_3894682, \
